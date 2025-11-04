@@ -45,18 +45,31 @@ graph TD
 
 📁 Folder Structure
 personal-ai-chatbot/
+
 │
+
 ├── data/
+
 │   └── docs/                ← place your PDFs/DOCXs here
+
 │
+
 ├── chroma_db_openai/        ← auto-generated local vector DB (after running ingest.py)
+
 │
+
 ├── .env                     ← stores your OpenAI API key (DO NOT COMMIT)
+
 ├── requirements.txt          ← dependencies
+
 ├── docling_loader.py         ← handles text extraction
+
 ├── ingest.py                 ← builds embeddings + vector DB
+
 ├── app.py                    ← Streamlit chat interface
+
 └── README.md
+
 
 🔑 Environment Setup
 1️⃣ Clone the repository
