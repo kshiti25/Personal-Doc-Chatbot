@@ -1,0 +1,19 @@
+# Environment files
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code history
+.history/
+
+# Local vector DB
+chroma_db_openai/
+
+# Data files (keep folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# macOS metadata
+.DS_Store
