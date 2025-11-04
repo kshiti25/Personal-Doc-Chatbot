@@ -22,12 +22,10 @@ Built with LangChain, Docling, ChromaDB, and Streamlit, it gives you your own pr
 
 🏗️ Architecture Overview
 graph TD
+
     A[📁 Documents (PDF/DOCX)] --> B[DoclingLoader
-    
     B --> C[LangChain Text Splitter]
-    
     C --> D[OpenAI Embeddings]
-    
     D --> E[Chroma Vector DB]
     F[User Question] --> G[OpenAI Embeddings (query)]
     G --> H[Retriever from Chroma]
